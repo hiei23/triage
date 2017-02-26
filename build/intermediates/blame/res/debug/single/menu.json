@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\Si Hua\\Documents\\GitHub\\Portafolio\\triage\\build\\intermediates\\res\\merged\\debug\\menu\\waiting_list.xml",
+        "source": "C:\\Users\\Si Hua\\Documents\\GitHub\\Portafolio\\triage\\res\\menu\\waiting_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Si Hua\\Documents\\GitHub\\Portafolio\\triage\\build\\intermediates\\res\\merged\\debug\\menu\\search.xml",
+        "source": "C:\\Users\\Si Hua\\Documents\\GitHub\\Portafolio\\triage\\res\\menu\\search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Si Hua\\Documents\\GitHub\\Portafolio\\triage\\build\\intermediates\\res\\merged\\debug\\menu\\dislplay_record.xml",
+        "source": "C:\\Users\\Si Hua\\Documents\\GitHub\\Portafolio\\triage\\res\\menu\\dislplay_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\Si Hua\\Documents\\GitHub\\Portafolio\\triage\\build\\intermediates\\res\\merged\\debug\\menu\\seen_doctor.xml",
+        "source": "C:\\Users\\Si Hua\\Documents\\GitHub\\Portafolio\\triage\\res\\menu\\seen_doctor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Si Hua\\Documents\\GitHub\\Portafolio\\triage\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\Si Hua\\Documents\\GitHub\\Portafolio\\triage\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Si Hua\\Documents\\GitHub\\Portafolio\\triage\\build\\intermediates\\res\\merged\\debug\\menu\\update_vital_signs.xml",
+        "source": "C:\\Users\\Si Hua\\Documents\\GitHub\\Portafolio\\triage\\res\\menu\\update_vital_signs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Si Hua\\Documents\\GitHub\\Portafolio\\triage\\build\\intermediates\\res\\merged\\debug\\menu\\patient.xml",
+        "source": "C:\\Users\\Si Hua\\Documents\\GitHub\\Portafolio\\triage\\res\\menu\\patient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Si Hua\\Documents\\GitHub\\Portafolio\\triage\\build\\intermediates\\res\\merged\\debug\\menu\\new_patient.xml",
+        "source": "C:\\Users\\Si Hua\\Documents\\GitHub\\Portafolio\\triage\\res\\menu\\new_patient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Si Hua\\Documents\\GitHub\\Portafolio\\triage\\build\\intermediates\\res\\merged\\debug\\menu\\prescriptions.xml",
+        "source": "C:\\Users\\Si Hua\\Documents\\GitHub\\Portafolio\\triage\\res\\menu\\prescriptions.xml"
+    },
+    {
+        "merged": "C:\\Users\\Si Hua\\Documents\\GitHub\\Portafolio\\triage\\build\\intermediates\\res\\merged\\debug\\menu\\visit_record.xml",
+        "source": "C:\\Users\\Si Hua\\Documents\\GitHub\\Portafolio\\triage\\res\\menu\\visit_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\Si Hua\\Documents\\GitHub\\Portafolio\\triage\\build\\intermediates\\res\\merged\\debug\\menu\\login.xml",
+        "source": "C:\\Users\\Si Hua\\Documents\\GitHub\\Portafolio\\triage\\res\\menu\\login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Si Hua\\Documents\\GitHub\\Portafolio\\triage\\build\\intermediates\\res\\merged\\debug\\menu\\add_patient.xml",
+        "source": "C:\\Users\\Si Hua\\Documents\\GitHub\\Portafolio\\triage\\res\\menu\\add_patient.xml"
+    }
+]

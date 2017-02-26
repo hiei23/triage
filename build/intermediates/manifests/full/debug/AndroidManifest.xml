@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.triage"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+     To retrieve OAuth 2.0 tokens or invalidate tokens to disconnect a user. This disconnect
+     option is required to comply with the Google+ Sign-In developer policies
+    -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.triage.LoginActivity"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.triage.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.triage.DislplayRecord"
+            android:label="@string/title_activity_dislplay_record" >
+        </activity>
+        <activity
+            android:name="com.example.triage.PatientActivity"
+            android:label="@string/title_activity_patient" >
+        </activity>
+        <activity
+            android:name="com.example.triage.UpdateVitalSignsActivity"
+            android:label="@string/title_activity_update_vital_signs" >
+        </activity>
+        <activity
+            android:name="com.example.triage.VisitRecordActivity"
+            android:label="@string/title_activity_visit_record" >
+        </activity>
+        <activity
+            android:name="com.example.triage.NewPatient"
+            android:label="@string/title_activity_new_patient" >
+        </activity>
+        <activity
+            android:name="com.example.triage.AddPatient"
+            android:label="@string/title_activity_add_patient" >
+        </activity>
+        <activity
+            android:name="com.example.triage.SearchActivity"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="com.example.triage.PrescriptionsActivity"
+            android:label="@string/title_activity_prescriptions" >
+        </activity>
+        <activity
+            android:name="com.example.triage.WaitingListActivity"
+            android:label="@string/title_activity_waiting_list" >
+        </activity>
+        <activity
+            android:name="com.example.triage.SeenDoctorActivity"
+            android:label="@string/title_activity_seen_doctor" >
+        </activity>
+    </application>
+
+</manifest>

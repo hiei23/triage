@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="add_p">Add Patient</string>
+    <string name="app_name">Triage</string>
+    <string name="birth_date">dd</string>
+    <string name="birth_month">mm</string>
+    <string name="birth_year">yy</string>
+    <string name="blood_pressure">Enter Blood Pressure</string>
+    <string name="blood_pressure_dia">Enter Diastolic Blood Pressure</string>
+    <string name="blood_pressure_sys">Enter Systolic Blood Pressure</string>
+    <string name="diastolic">Diastolic</string>
+    <string name="enter_vitalsigns">Enter the vital signs below:</string>
+    <string name="healthcardnum">Health Card Number</string>
+    <string name="heart_rate">Enter Heart Rate</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="instruction">Enter instruction to medication</string>
+    <string name="medication">Enter name of medication</string>
+    <string name="patient_name">Patient Name</string>
+    <string name="save">Save</string>
+    <string name="systolic">Systolic</string>
+    <string name="tempearture">Enter Temperature</string>
+    <string name="title_activity_add_patient">Add Patient</string>
+    <string name="title_activity_dislplay_record">Dislplay Record</string>
+    <string name="title_activity_login">Triage</string>
+    <string name="title_activity_new_patient">New Patient</string>
+    <string name="title_activity_patient">Patient Information</string>
+    <string name="title_activity_prescriptions">Prescription</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_seen_doctor">Seen Doctor</string>
+    <string name="title_activity_update_vital_signs">Update Vital Signs</string>
+    <string name="title_activity_visit_record">Visit Record</string>
+    <string name="title_activity_waiting_list">Waiting List</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="CustomActionBarTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_background</item>
+    </style>
+</resources>

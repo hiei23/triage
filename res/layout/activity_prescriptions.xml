@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="153dp"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="sans-serif"
+        android:maxLines="1"
+        android:onClick="saveVisitRecord"
+        android:text="@string/save"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/medication_field"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView14"
+        android:layout_below="@+id/textView14"
+        android:ems="10"
+        android:textColorHint="#91CCC0"
+        android:hint="@string/medication"
+        android:fontFamily="sans-serif"
+        android:textColor="#114543" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/instruction_field"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:ems="10"
+        android:textColorHint="#91CCC0"
+        android:hint="@string/instruction"
+        android:fontFamily="sans-serif"
+        android:textColor="#114543">
+        
+    </EditText>"
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/medication_field"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="39dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Instruction:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#114543" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_marginTop="42dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Medication:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#114543" />
+
+</RelativeLayout>

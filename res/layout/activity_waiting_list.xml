@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.triage.WaitingListActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/WaitingListView2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" >
+            </ListView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/ArrivalTimeButton"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/UrgencyButton"
+        android:layout_alignBottom="@+id/UrgencyButton"
+        android:layout_alignRight="@+id/scrollView1"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="sans-serif"
+        android:onClick="sortByArrival"
+        android:textColor="#FFFFFF"
+        android:text="Arrival" />
+
+    <Button
+        android:id="@+id/UrgencyButton"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/scrollView1"
+        android:layout_marginTop="51dp"
+        android:onClick="sortByUrgency"
+        android:text="Urgency"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scrollView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Sort By"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#114543"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/HomeButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="gethome"
+        android:text="Home"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
